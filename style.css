@@ -1,32 +1,56 @@
-.container {
-    border: 2px solid black;
-    width: 600px;
-    padding: 20px 20px;
-    display: flex;
-}
+/* header styles */
 
-.user h2 {
-border: 2px solid green;
-margin: 0 auto;
-}
-
-p {
-    border: 2px solid red;
-}
-
-.btn {
+/* .conatiner {
+    800px;
     margin: 0 auto;
-    border: 2px solid blue;
+} */
+
+/* like space */
+body {
+    background-color: black;
 }
 
-.btn p {
-    border: 2px dotted purple;
+
+
+header {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.this {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5em;
+    align-content: center;
+}
+
+.like-space {
+display: flex;
+justify-content: space-around;
+border: 4px solid darkslategray;
+background-color: lightcyan;
+padding: 5px 5px;
+border-radius: 4px;
+box-shadow: 2px 2px lightseagreen;
+margin-top: 50%;
 }
 
 button {
-    padding: 5px 10px;
-    border: 2px solid black;
-    background-color: gold;
-    box-shadow: 2px 2px black;
-    margin-left: 20px;
+    margin: 10px;
+    padding: 0 30px;
+    box-shadow: 2px 4px darkslategray;
+    background-color: aquamarine;
+    font-weight: bolder;
+    font-size: large;
+    color: darkslategrey;
+}
+
+p {
+    background-color: darkslategray;
+    color: lightseagreen;
+    font-weight: bolder;
+    font-size: large;
+    padding: 10px 30px;
+    box-shadow: 3px 2px lightseagreen;
+
 }
